@@ -8,7 +8,7 @@ body{
 .container {
   display: flex;
  gap: 100px;
- justify-content:center;
+ justify-content:space-around;
   align-items:center;
 }
 
