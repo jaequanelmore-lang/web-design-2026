@@ -9,6 +9,7 @@ body{
   display: flex;
  gap: 100px;
  justify-content:center;
+  align-items:center;
 }
 
 #thisIsAnId {
