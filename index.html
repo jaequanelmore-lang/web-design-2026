@@ -25,7 +25,11 @@
 <div class="bg-mint-500">
   <!-- ... -->
 </div>
-   
+   <ul role="list">
+  {#each items as item}
+  <li class="lg:[&:nth-child(-n+3)]:hover:underline">{item}</li>
+  {/each}
+</ul>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,6 +62,7 @@ color: #FEFCFB;
   </div>
 </div>
 
+columns: var(--container-2xs); /* 18rem (288px) 
 <div class="container">
        <div class="box">
            <img src="curry.jpg" alt="Stephen Curry">
