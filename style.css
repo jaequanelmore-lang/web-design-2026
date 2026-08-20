@@ -14,8 +14,8 @@ body{
 
 #thisIsAnId {
   font-family: "Google Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 550;
+  font-optical-sizing: 450px;
+  font-weight: 800;
   font-style: normal;
   font-variation-settings: "GRAD" 0;
 }
@@ -23,6 +23,6 @@ body{
 .thisIsAClass {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
- font-weight: 700;
+ font-weight: 850;
   font-style: normal;
 }
