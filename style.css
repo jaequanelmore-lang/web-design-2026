@@ -1,20 +1,21 @@
-h1 { color: #FEFCFB;
- }
+h1 {
+  color: #FEFCFB;
+}
 
-body{
- background-color: #034078;
+body {
+  background-color: #034078;
 }
 
 .container {
   display: flex;
- gap: 100px;
- justify-content:space-around;
-  align-items:center;
+  gap: 100px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #thisIsAnId {
   font-family: "Google Sans", sans-serif;
-  font-optical-sizing: 450px;
+  font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
   font-variation-settings: "GRAD" 0;
@@ -23,6 +24,6 @@ body{
 .thisIsAClass {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
- font-weight: 850;
+  font-weight: 850;
   font-style: normal;
 }
