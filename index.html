@@ -1,115 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Top 3 Best NBA Guards</title>
-<link rel="stylesheet" href="style.css">
-<button class="bg-sky-500 hover:bg-sky-700 ...">Save changes</button>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <!-- Width of 16 by default, 32 on medium screens, and 48 on large screens -->
-<img class="w-16 md:w-32 lg:w-48" src="..." />
-<div class="bg-white dark:bg-gray-800 rounded-lg px-6 py-8 ring shadow-xl ring-gray-900/5">
-  <div>
-    <span class="inline-flex items-center justify-center rounded-md bg-indigo-500 p-2 shadow-lg">
-      <svg class="h-6 w-6 stroke-white" ...>
-        <!-- ... -->
-      </svg>
-    </span>
-  </div>
-  <h3 class="text-gray-900 dark:text-white mt-5 text-base font-medium tracking-tight ">Top 3 guards</h3>
-  <p class="text-gray-500 dark:text-gray-400 mt-2 text-sm ">
-    These are the best guards in the country and the world
-  </p>
-</div>
-<div class="bg-mint-500">
-  <!-- ... -->
-</div>
-   <ul role="list">
-  {#each items as item}
-  <li class="lg:[&:nth-child(-n+3)]:hover:underline">{item}</li>
-  {/each}
-</ul>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-   
-  <style>
-   body { 
-color: #FEFCFB;
-   }
 
-     img {
+    <title>Top 3 Best NBA Guards</title>
+
+    <style>
+        body {
+            background-color: #111827;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #38bdf8;
+        }
+
+        h2 {
+            color: #818cf8;
+            margin-top: 40px;
+        }
+
+        .main-image {
+            display: block;
             width: 275px;
+            margin: 20px auto;
             border-radius: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .box {
+            background-color: #1f2937;
+            border-radius: 15px;
+            padding: 20px;
+            width: 275px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .box img {
+            width: 100%;
+            height: 275px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .box h3 {
+            color: #38bdf8;
+        }
+
+        .box p {
+            color: #d1d5db;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #38bdf8;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            border-top: 1px solid #374151;
         }
     </style>
 </head>
+
 <body>
- <h1 id="thisIsAnId">TOP 3 Best NBA Guards</h1>
 
-   <img src="NBA.jpg" alt="NBA">
+    <h1>TOP 3 Best NBA Guards</h1>
 
-<img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSMpKCVlidqsFyubd4xPm0rM-c4sn6mDqwf5nQp_jNUjUucOKgMocJagplDol5ZaVOqN-5fqjQDvqPCw0Ci0e5M_geJJUfqEgq8-XOj-7taH_YKSpf9u8137YIyWJOFZUL46cwvJOFrwZRC&s=19" alt="Steph Curry">
+    <img class="main-image" src="NBA.jpg" alt="NBA basketball">
 
-   <div class="columns-2">
-  <p>Well, let me tell you something, ...</p>
-  <p class="break-inside-avoid-column">Sure, go ahead, laugh...</p>
-  <p>Maybe we can live without...</p>
-  <p>Look. If you think this is...</p>
-</div>
+    <h2>My Top 3 Guards</h2>
 
+    <div class="container">
 
-    <p class="thisIsAClass">My first site.</p>
-   
-  <div>
-    <div class="text-xl font-medium text-black dark:text-white">Hoops</div>
-    <p class="text-gray-500 dark:text-gray-400">Best pgs!</p>
-  </div>
-</div>
+        <div class="box">
+            <img src="curry.jpg" alt="Stephen Curry">
+            <h3>1. Stephen Curry</h3>
+            <p>Curry is Curry 🔥</p>
+        </div>
 
-columns: var(--container-2xs); /* 18rem (288px) 
-<div class="container">
-       <div class="box">
-           <img src="curry.jpg" alt="Stephen Curry">
-           <h3>1. Stephen Curry</h3>
-           <p>Curry is Curry 🔥</p>
-           </div>
-           <div class="box">
-           <img src="mccain.jpg" alt="Jared McCain">
-              <h3>2. Jared McCain</h3>
-              <p>Jared is a top 3 shooter.</p>
-           </div>
-           <div class="box">
-           <img src="fears.jpg" alt="Player Fears">
-               <h3>3. Fears</h3>
-               <p>Fears has amazing bagwork.</p>
-             </div>
+        <div class="box">
+            <img src="mccain.jpg" alt="Jared McCain">
+            <h3>2. Jared McCain</h3>
+            <p>Jared is a top 3 shooter.</p>
+        </div>
+
+        <div class="box">
+            <img src="fears.jpg" alt="Player Fears">
+            <h3>3. Fears</h3>
+            <p>Fears has amazing bagwork.</p>
+        </div>
+
     </div>
-    </section>
-  
-   <!-- Section 2 -->
-   <h2>Why I Like These Players</h2>
-     <ul>
-         <li>Great shooting</li>
-          <li>Strong ball handling</li>
-         <li>Good scoring ability</li>
-           <li>Exciting to watch</li>
-         </ul>
 
-   <p>
-      Want to learn more about the NBA?
-          <a href="https://www.nba.com/" target="_blank">Visit the NBA website</a>.
-        </p>
-       </section>
-   
-<!-- Footer -->
-     <footer>
-         <p>&copy; 2026 Top 3 Best NBA Guards</p>
-         <h4>Lock in genuinely 🔥</h4>
-          </footer>
-        
+    <h2>Why I Like These Players</h2>
 
-  </body>
-  </html>
+    <ul>
+        <li>Great shooting</li>
+        <li>Strong ball handling</li>
+        <li>Good scoring ability</li>
+        <li>Exciting to watch</li>
+    </ul>
+
+    <h2>Learn More About the NBA</h2>
+
+    <p>
+        Want to learn more about the NBA?
+        <a href="https://www.nba.com/" target="_blank">
+            Visit the NBA website
+        </a>.
+    </p>
+
+    <footer>
+        <p>&copy; 2026 Top 3 Best NBA Guards</p>
+        <h4>Lock in genuinely 🔥</h4>
+    </footer>
+
+</body>
+</html>
