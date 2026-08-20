@@ -130,6 +130,7 @@
         .box h3 {
             color: #38bdf8;
             font-size: 23px;
+            margin-bottom: 10px;
         }
 
         .box p {
@@ -141,6 +142,33 @@
             font-size: 35px;
             font-weight: bold;
             color: #facc15;
+            margin-bottom: 10px;
+        }
+
+        /* PLAYER STATS */
+        .player-stats {
+            margin-top: 20px;
+            padding: 15px;
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+            border-radius: 15px;
+            border: 1px solid #38bdf8;
+            box-shadow: 0 0 15px rgba(56, 189, 248, 0.15);
+        }
+
+        .player-stats strong {
+            display: block;
+            color: #facc15;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .player-stats p {
+            display: inline-block;
+            width: 48%;
+            margin: 6px 0;
+            color: #e5e7eb;
+            font-size: 15px;
+            line-height: 1.3;
         }
 
         /* STATS */
@@ -185,7 +213,7 @@
             font-size: 18px;
         }
 
-        /* LINK SECTION */
+        /* NBA LINK */
         .nba-link {
             text-align: center;
             background: linear-gradient(135deg, #1e3a8a, #312e81);
@@ -227,6 +255,33 @@
         footer p {
             color: #9ca3af;
         }
+
+        /* MOBILE */
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 35px;
+            }
+
+            header p {
+                font-size: 17px;
+            }
+
+            nav a {
+                margin: 0 8px;
+                font-size: 14px;
+            }
+
+            .box {
+                width: 100%;
+                max-width: 350px;
+            }
+
+            .main-image {
+                width: 90%;
+                height: 200px;
+            }
+        }
     </style>
 </head>
 
@@ -234,6 +289,7 @@
 
     <!-- HEADER -->
     <header>
+
         <h1>🏀 TOP 3 BEST NBA GUARDS 🏀</h1>
 
         <p>
@@ -241,26 +297,36 @@
         </p>
 
         <img class="main-image" src="NBA.jpg" alt="NBA basketball">
+
     </header>
+
 
     <!-- NAVIGATION -->
     <nav>
+
         <a href="#players">Players</a>
         <a href="#stats">Stats</a>
         <a href="#reasons">Why I Like Them</a>
         <a href="#nba">NBA</a>
+
     </nav>
+
 
     <!-- MAIN -->
     <main>
 
-        <!-- SECTION 1 -->
+
+        <!-- PLAYERS SECTION -->
         <section id="players">
+
             <h2>🔥 My Top 3 Guards</h2>
 
             <div class="container">
 
+
+                <!-- STEPHEN CURRY -->
                 <div class="box">
+
                     <div class="number">#1</div>
 
                     <img src="curry.jpg" alt="Stephen Curry">
@@ -272,9 +338,26 @@
                         His handles, deep threes, and ability to create shots
                         make him an incredible guard.
                     </p>
+
+                    <div class="player-stats">
+
+                        <strong>📊 2025–26 NBA Stats</strong>
+
+                        <p>🏀 <b>26.6</b> PPG</p>
+                        <p>🎯 <b>3.6</b> RPG</p>
+                        <p>🧠 <b>4.7</b> APG</p>
+                        <p>🔥 <b>46.8%</b> FG</p>
+                        <p>💥 <b>39.3%</b> 3PT</p>
+                        <p>🎯 <b>92.3%</b> FT</p>
+
+                    </div>
+
                 </div>
 
+
+                <!-- JARED MCCAIN -->
                 <div class="box">
+
                     <div class="number">#2</div>
 
                     <img src="mccain.jpg" alt="Jared McCain">
@@ -286,27 +369,61 @@
                         His confidence, shooting ability, and scoring make
                         him fun to watch.
                     </p>
+
+                    <div class="player-stats">
+
+                        <strong>📊 2025–26 NBA Stats</strong>
+
+                        <p>🏀 <b>6.6</b> PPG</p>
+                        <p>🎯 <b>2.0</b> RPG</p>
+                        <p>🧠 <b>1.7</b> APG</p>
+                        <p>🔥 <b>38.5%</b> FG</p>
+                        <p>💥 <b>37.8%</b> 3PT</p>
+                        <p>🎯 <b>88.0%</b> FT</p>
+
+                    </div>
+
                 </div>
 
+
+                <!-- JEREMIAH FEARS -->
                 <div class="box">
+
                     <div class="number">#3</div>
 
-                    <img src="fears.jpg" alt="Fears">
+                    <img src="fears.jpg" alt="Jeremiah Fears">
 
-                    <h3>Fears</h3>
+                    <h3>Jeremiah Fears</h3>
 
                     <p>
                         Fears has an amazing bag of moves.
                         His ball handling and ability to create space
-                        make him a dangerous guard.
+                        make him a dangerous young guard.
                     </p>
+
+                    <div class="player-stats">
+
+                        <strong>📊 2025–26 NBA Stats</strong>
+
+                        <p>🏀 <b>14.3</b> PPG</p>
+                        <p>🎯 <b>3.7</b> RPG</p>
+                        <p>🧠 <b>3.4</b> APG</p>
+                        <p>🔥 <b>43.4%</b> FG</p>
+                        <p>💥 <b>33.0%</b> 3PT</p>
+                        <p>🎯 <b>78.9%</b> FT</p>
+
+                    </div>
+
                 </div>
 
             </div>
+
         </section>
 
-        <!-- SECTION 2 -->
+
+        <!-- STATS SECTION -->
         <section id="stats">
+
             <h2>📊 What Makes a Great Guard?</h2>
 
             <div class="stats">
@@ -332,26 +449,36 @@
                 </div>
 
             </div>
+
         </section>
 
-        <!-- SECTION 3 -->
+
+        <!-- REASONS SECTION -->
         <section id="reasons">
-            <h2> Why I Like These Players</h2>
+
+            <h2>Why I Like These Players</h2>
 
             <div class="reasons">
+
                 <ul>
+
                     <li>Great shooting</li>
                     <li>Strong ball handling</li>
                     <li>Good scoring ability</li>
                     <li>Can create their own shots</li>
                     <li>Exciting to watch</li>
                     <li>Have confidence on the court</li>
+
                 </ul>
+
             </div>
+
         </section>
 
-        <!-- SECTION 4 -->
+
+        <!-- NBA SECTION -->
         <section id="nba">
+
             <div class="nba-link">
 
                 <h2>🏆 Learn More About the NBA</h2>
@@ -366,12 +493,16 @@
                 </a>
 
             </div>
+
         </section>
+
 
     </main>
 
+
     <!-- FOOTER -->
     <footer>
+
         <h4>🏀 LOCK IN GENUINELY 🔥</h4>
 
         <p>
@@ -381,6 +512,7 @@
         <p>
             Made with HTML & CSS
         </p>
+
     </footer>
 
 </body>
